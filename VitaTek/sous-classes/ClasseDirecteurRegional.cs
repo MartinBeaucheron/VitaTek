@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using ClasseForceDeVente;
+
 namespace ClasseDirecteurRegional
 {
-	public class DirecteurRegional : ForceDeVente
+	public class DirecteurRegional 
 
 	{
 		//attributs
