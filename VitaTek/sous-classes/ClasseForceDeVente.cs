@@ -12,7 +12,7 @@ namespace ClasseForceDeVente
         private int numero, nbEnfantACharge;
         private DateTime dateEmbauche, dateNaissance;
         //methodes
-
+    
         //constructeurs
 
         //methodes accès varibles privées
