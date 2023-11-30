@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ClasseVisiteur
+namespace ClasseForceDeVente
 {
-    public class Secteur
+    public class ForceDeVente
     {
         //attributs
         private String nom, laSituationFamilliale;
         private int numero, nbEnfantACharge;
         private DateTime dateEmbauche, dateNaissance;
         //methodes
-
+    
         //constructeurs
 
         //methodes accès varibles privées
