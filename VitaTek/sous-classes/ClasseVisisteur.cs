@@ -8,11 +8,22 @@ namespace ClasseVisiteur
 	public class Visiteur
 	{
 		//attributs
-		private String nomrôle;
-		//methodes
+		private String nomRole;
 
 		//constructeurs
+		public getNomRôle()
+		{
+			return this.nomRole;
+		}
 
-		//methodes accès varibles privées
+		public void setNomRole(string nouveauNom)
+		{
+			this.nomRole = nouveauNom;
+		}
+
+		public void ToString()
+		{
+			Console.WriteLine("Le nom du Rôle est : " + this.nomRole);
+		}
 	}
 }

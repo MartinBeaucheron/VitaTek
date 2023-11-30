@@ -12,7 +12,19 @@ namespace ClasseSecteur
         //methodes
 
         //constructeurs
+        public getNomSecteur()
+        {
+            return this.nomSecteur;
+        }
 
-        //methodes accès varibles privées
+        public void setNomSecteur(string nouveauNom)
+        {
+            this.setNomSecteur = nouveauNom;
+        }
+
+        public void ToString()
+        {
+            Console.WriteLine("Le nom du Rôle est : " + this.nomSecteur);
+        }
     }
 }

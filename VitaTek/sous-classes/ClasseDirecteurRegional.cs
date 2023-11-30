@@ -6,9 +6,9 @@ using ClasseForceDeVente;
 
 namespace ClasseDirecteurRegional
 {
-	public class DirecteurRegional 
+	public class DirecteurRegional : ForceDeVente
 
-	{
+    {
 		//attributs
 		private String nomrôle;
 		
