@@ -8,7 +8,9 @@ namespace ClasseVisiteur
     public class Secteur
     {
         //attributs
-        private String nomSecteur;
+        private String nom, laSituationFamilliale;
+        private int numero, nbEnfantACharge;
+        private DateTime dateEmbauche, dateNaissance;
         //methodes
 
         //constructeurs
