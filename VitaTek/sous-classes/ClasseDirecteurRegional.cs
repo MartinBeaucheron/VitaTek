@@ -3,18 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using ClasseForceDeVente;
-namespace ClasseDirecteurRegional
+namespace ClasseDirecteurRegional;
+
+public class DirecteurRegional : ForceDeVente
+
 {
-	public class DirecteurRegional : ForceDeVente
 
-	{
-		//attributs
-		private String nomrôle;
-		
-		//methodes
+	//attributs
+	private String nomrôle;
+	
+	//methodes
 
-		//constructeurs
+	//constructeurs
 
-		//methodes accès varibles privées
-	}
+	//methodes accès varibles privées
 }
