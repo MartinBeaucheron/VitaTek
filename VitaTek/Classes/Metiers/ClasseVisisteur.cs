@@ -7,16 +7,17 @@ namespace ClasseVisiteur
 {
 	public class Visiteur
 	{
-		//attributs
-		private String nomRole;
+        //Définitions des variables :
+        private String nomRole;
 
-		//constructeurs
-		public getNomRôle()
+        //Méthodes getteurs :
+        public getNomRôle()
 		{
 			return this.nomRole;
 		}
 
-		public void setNomRole(string nouveauNom)
+        //Méthodes setteurs :
+        public void setNomRole(string nouveauNom)
 		{
 			this.nomRole = nouveauNom;
 		}

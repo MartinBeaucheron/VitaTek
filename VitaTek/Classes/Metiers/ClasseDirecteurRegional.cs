@@ -8,13 +8,24 @@ namespace ClasseDirecteurRegional;
 public class DirecteurRegional : ForceDeVente
 
 {
+    //Définitions des variables :
+    private String nomRole;
 
-	//attributs
-	private String nomrôle;
-	
-	//methodes
+    //Méthodes getteurs :
+    public getnomRole()
+    {
+        return nomRole;
+    }
 
-	//constructeurs
+    //Méthodes setteurs :
+    public setnomRole()
+    {
+        nomRole = this.nomRole;
+    }
 
-	//methodes accès varibles privées
+    //Méthodes toString :
+    public string toString()
+    {
+        return "Le nom du rôle est :" + this.nomRole;
+    }
 }

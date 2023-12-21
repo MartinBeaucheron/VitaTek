@@ -7,16 +7,16 @@ namespace ClasseSecteur
 {
     public class Secteur
     {
-        //attributs
+        //Définitions des variables :
         private String nomSecteur;
-        //methodes
 
-        //constructeurs
+        //Méthodes getteurs :
         public getNomSecteur()
         {
             return this.nomSecteur;
         }
 
+        //Méthodes setteurs :
         public void setNomSecteur(string nouveauNom)
         {
             this.setNomSecteur = nouveauNom;

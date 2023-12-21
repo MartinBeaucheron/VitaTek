@@ -7,14 +7,13 @@ namespace ClasseForceDeVente
 {
     public class ForceDeVente
     {
-        //attributs
+        //Définitions des variables :
         private String nom, laSituationFamilliale;
         private int numero, nbEnfantACharge;
         private DateTime dateEmbauche, dateNaissance;
-        //methodes
-    
-        //constructeurs
 
-        //methodes accès varibles privées
+        //Méthodes getteurs :
+
+        //Méthodes setteurs :
     }
 }

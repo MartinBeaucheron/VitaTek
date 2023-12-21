@@ -7,17 +7,16 @@ namespace ClasseVisiteur
 {
     public class Region
     {
-        //attributs
+        //Définitions des variables :
         private String nomRegion;
-        //methodes
 
-        //constructeurs
-
+        //Méthodes getteurs :
         public getNomRegion()
         {
             return this.nomRegion;
         }
 
+        //Méthodes setteurs :
         public void setNomRegion(string nouveauNom)
         {
             this.nomRegion = nouveauNom;
