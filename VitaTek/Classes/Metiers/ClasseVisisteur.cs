@@ -9,6 +9,7 @@ namespace ClasseVisiteur
 	{
 		//attributs
 		private String nomrôle;
+	
 		//methodes
 
 		//constructeurs
