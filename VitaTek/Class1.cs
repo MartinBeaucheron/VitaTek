@@ -14,10 +14,10 @@ namespace VitaTek
     {
       
         static HttpClient client = new HttpClient();
-        public static async Task<List<Visiteur>> getUnDirecteurRegionnal(int id,int role)
+        public static async Task<List<Visiteur>> getUnDirecteurRegionnal(int id)
         {
             List<Visiteur> lesVisiteurs = new List<Visiteur>();
-            string url = "https://s5-5127.nuage-peda.fr/VitaTek/api.php?id="+id+"&role="+role;
+            string url = "https://s5-5127.nuage-peda.fr/VitaTek/api.php?";
             string repAPIenJson;
             HttpClient client = new HttpClient();
             client.BaseAddress = new Uri(url);

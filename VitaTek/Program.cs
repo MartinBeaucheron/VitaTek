@@ -16,8 +16,8 @@ namespace VitaTek
         [STAThread]
         static void Main()
         {
-          
-          
+            Console.WriteLine(Passerelle.getUnDirecteurRegionnal(1));
+            
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
