@@ -3,16 +3,28 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ClasseVisiteur
+namespace ClasseSecteur
 {
     public class Secteur
     {
-        //attributs
+        //Définitions des variables :
         private String nomSecteur;
-        //methodes
 
-        //constructeurs
+        //Méthodes getteurs :
+        public getNomSecteur()
+        {
+            return this.nomSecteur;
+        }
 
-        //methodes accès varibles privées
+        //Méthodes setteurs :
+        public void setNomSecteur(string nouveauNom)
+        {
+            this.setNomSecteur = nouveauNom;
+        }
+
+        public void ToString()
+        {
+            Console.WriteLine("Le nom du Rôle est : " + this.nomSecteur);
+        }
     }
 }

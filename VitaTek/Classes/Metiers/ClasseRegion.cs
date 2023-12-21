@@ -7,12 +7,23 @@ namespace ClasseVisiteur
 {
     public class Region
     {
-        //attributs
-        private String nomregion;
-        //methodes
+        //Définitions des variables :
+        private String nomRegion;
 
-        //constructeurs
+        //Méthodes getteurs :
+        public getNomRegion()
+        {
+            return this.nomRegion;
+        }
 
-        //methodes accès varibles privées
+        //Méthodes setteurs :
+        public void setNomRegion(string nouveauNom)
+        {
+            this.nomRegion = nouveauNom;
+        }
+
+        public void ToString()
+        {
+            Console.WriteLine("Le nom du Rôle est : " + this.nomRegion);
+        }
     }
-}
