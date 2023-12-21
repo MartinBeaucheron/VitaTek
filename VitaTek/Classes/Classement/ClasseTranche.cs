@@ -25,11 +25,11 @@ namespace ClasseTranche
 		{
 			return this.valeurMin;
 		}
-		public setnbPoints(int nbPoints)
+		public setnbPoints(double nbPoints)
 		{
 			this.nbPoints = nbPoints;
 		}
-		public setvaleurMaximum(int valeurMaximum)
+		public setvaleurMaximum(double valeurMaximum)
 		{
 			this.valeurMaximum = valeurMaximum;
 		}
